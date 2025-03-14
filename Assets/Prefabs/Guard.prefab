@@ -205,7 +205,7 @@ GameObject:
   - component: {fileID: 1512810505941692098}
   m_Layer: 0
   m_Name: Guard02
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -718,12 +718,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5991038596240917398}
   - component: {fileID: 2870593015744933219}
-  - component: {fileID: 836644131035654287}
-  - component: {fileID: 811514574284689377}
-  - component: {fileID: 1361217521971287518}
   m_Layer: 0
   m_Name: Guard
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -767,55 +764,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &836644131035654287
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5655259811244105549}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b0cc9e057e6da2516b64631d905ab996, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &811514574284689377
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5655259811244105549}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22cdc6a8a42b0f8acbd41b069b772e15, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!143 &1361217521971287518
-CharacterController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5655259811244105549}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Height: 2.1
-  m_Radius: 0.35
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.035
-  m_MinMoveDistance: 0
-  m_Center: {x: 0, y: 1.05, z: 0}
 --- !u!1 &5734027887457547208
 GameObject:
   m_ObjectHideFlags: 0
