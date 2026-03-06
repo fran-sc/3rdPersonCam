@@ -1,5 +1,7 @@
 **Cámara 3ra Persona**
 
+`[Unity ver.: 6.3.9f1]`
+
 Proyecto de prueba sobre gestión de cámara en proyectos 3D con perspectiva en 3ª persona
 
 - Descarga e importación de modelos y animaciones de Mixamo.
