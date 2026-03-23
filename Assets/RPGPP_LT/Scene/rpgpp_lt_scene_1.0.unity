@@ -23,9 +23,9 @@ RenderSettings:
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 0.1
+  m_AmbientIntensity: 2.6
   m_AmbientMode: 0
-  m_SubtractiveShadowColor: {r: 0.11759346, g: 0.18291394, b: 0.34839272, a: 1}
+  m_SubtractiveShadowColor: {r: 0.1713243, g: 0.25787267, b: 0.4716981, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 300fc8061e234d323ad41a4bd238dd3e, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
@@ -35,7 +35,7 @@ RenderSettings:
   m_DefaultReflectionMode: 0
   m_DefaultReflectionResolution: 128
   m_ReflectionBounces: 1
-  m_ReflectionIntensity: 0.5
+  m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
   m_UseRadianceAmbientProbe: 0
@@ -12402,7 +12402,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &867313193
 Light:
   m_ObjectHideFlags: 0
@@ -12414,7 +12414,7 @@ Light:
   serializedVersion: 12
   m_Type: 1
   m_Color: {r: 0.42454666, g: 0.5101972, b: 0.7218046, a: 1}
-  m_Intensity: 0.3
+  m_Intensity: 0.66
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -15580,7 +15580,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5113543624961256455, guid: 308ad9cb95452712d9e958100d80abc1, type: 3}
       propertyPath: m_Lightmapping
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5113543624961256455, guid: 308ad9cb95452712d9e958100d80abc1, type: 3}
       propertyPath: m_Shadows.m_Type
@@ -15588,7 +15588,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5113543624961256455, guid: 308ad9cb95452712d9e958100d80abc1, type: 3}
       propertyPath: m_BounceIntensity
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5472351264835084636, guid: 308ad9cb95452712d9e958100d80abc1, type: 3}
       propertyPath: m_Name
